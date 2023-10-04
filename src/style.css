@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
   font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
 }
 
 h1,
@@ -28,6 +30,62 @@ h4 {
   font-size: 1.25rem;
 }
 
+button {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  padding: 0.75em 1.5em;
+  border-radius: 48px;
+}
+
+.btn-primary.btn-dark {
+  background-color: #13183f;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+}
+
+.btn-secondary.btn-accent {
+  color: #f74780;
+}
+.btn-secondary.btn-accent:hover {
+  color: #ffa7c3;
+}
+
+.btn-primary.btn-accent {
+  color: white;
+  background: linear-gradient(#ff6f48, #f02aa6);
+}
+.btn-primary.btn-accent:hover {
+  background: linear-gradient(
+    color-mix(in srgb, #ff6f48 50%, white),
+    color-mix(in srgb, #f02aa6 50%, white)
+  );
+}
+
+.btn-dark:hover {
+  background-color: #666ca3;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .content .card button {
   font-size: 1.125rem;
+}
+
+footer .btn-primary.btn-accent {
+  background: linear-gradient(#4851ff, #f02aa6);
+}
+footer .btn-primary.btn-accent:hover {
+  background: linear-gradient(
+    color-mix(in srgb, #4851ff 50%, white),
+    color-mix(in srgb, #f02aa6 50%, white)
+  );
 }
