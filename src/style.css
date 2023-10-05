@@ -76,6 +76,17 @@ button {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+.logo {
+  max-height: 35px;
+}
+
 .content .card button {
   font-size: 1.125rem;
 }
