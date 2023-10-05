@@ -50,7 +50,7 @@ This project pushed me to go a little more advanced in my use of Flexbox.
 
 ### Useful resources
 
-- [WesBos's Flexbox course](https://flexbox.io/) - I followed this course to fill to fill my knowledge gaps in Flexbox for this project.
+- [WesBos's Flexbox course](https://flexbox.io/) - I followed this course to fill my knowledge gaps in Flexbox for this project.
   
 ## Author
 
