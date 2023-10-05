@@ -7,6 +7,10 @@
   font-size: 1rem;
 }
 
+body {
+  background: linear-gradient(#ffffff, #f0f1ff);
+}
+
 h1,
 h2,
 h3,
@@ -33,6 +37,15 @@ h4 {
 button {
   font-weight: 700;
   cursor: pointer;
+}
+
+p {
+  color: #83869a;
+  line-height: 1.5rem;
+}
+
+img {
+  max-width: 100%;
 }
 
 .btn-primary {
@@ -89,6 +102,39 @@ header {
 
 .content .card button {
   font-size: 1.125rem;
+}
+
+.hero {
+  padding: 1em 0;
+}
+
+.hero__heading {
+  margin-bottom: 0.75em;
+}
+
+.hero__description {
+  margin-bottom: 1.5em;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #fff;
+  margin-bottom: 3em;
+  padding: 0 2em 1.5em 2em;
+}
+.card-accent {
+  background: linear-gradient(#ff6f48, #f02aa6);
+  color: #ffffff;
+  padding-top: 1.5em;
+}
+
+.card__icon {
+  transform: translateY(-50%);
+  margin-bottom: -0.75em;
+}
+
+.card p {
+  margin: 1.25em 0;
 }
 
 footer .btn-primary.btn-accent {
