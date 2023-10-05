@@ -100,12 +100,17 @@ header {
   max-height: 35px;
 }
 
-.content .card button {
-  font-size: 1.125rem;
-}
-
 .hero {
   padding: 1em 0;
+}
+
+.hero__image-md,
+.hero__image-lg {
+  display: none;
+}
+
+.content .card button {
+  font-size: 1.125rem;
 }
 
 .hero__heading {
@@ -153,4 +158,52 @@ footer .btn-primary.btn-accent:hover {
     color-mix(in srgb, #4851ff 50%, white),
     color-mix(in srgb, #f02aa6 50%, white)
   );
+}
+
+@media (min-width: 684px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero__image-sm {
+    display: none;
+  }
+
+  .hero__image-md {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 640px;
+    transform: translateX(33%);
+  }
+
+  .hero__content {
+    padding-top: 5em;
+    padding-bottom: 13em;
+    width: 50%;
+  }
+
+  .hero__image-container {
+    width: 50%;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .card {
+    flex-basis: calc(50% - 12px);
+  }
+
+  .card-accent {
+    padding-top: 3em;
+  }
 }
