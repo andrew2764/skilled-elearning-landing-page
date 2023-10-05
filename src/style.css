@@ -93,7 +93,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5em 0;
+  padding: 1.5em;
 }
 
 .logo {
@@ -135,6 +135,14 @@ header {
 
 .card p {
   margin: 1.25em 0;
+}
+
+footer {
+  background-color: #13183f;
+  padding: 3em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer .btn-primary.btn-accent {
