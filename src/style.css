@@ -90,10 +90,7 @@ img {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5em;
+  padding: 1.5em 0;
 }
 
 .logo {
@@ -144,7 +141,11 @@ header {
 
 footer {
   background-color: #13183f;
-  padding: 3em 1.5em;
+  padding: 3em 0;
+}
+
+footer .container,
+header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -181,6 +182,7 @@ footer .btn-primary.btn-accent:hover {
     right: 0;
     max-width: 640px;
     transform: translateX(33%);
+    z-index: -1;
   }
 
   .hero__content {
@@ -196,7 +198,7 @@ footer .btn-primary.btn-accent:hover {
   .content {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    column-gap: 12px;
   }
 
   .card {
@@ -205,5 +207,49 @@ footer .btn-primary.btn-accent:hover {
 
   .card-accent {
     padding-top: 3em;
+  }
+}
+
+@media (min-width: 1000px) {
+  * {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .hero__image-lg {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 940px;
+    transform: translateX(35%) translateY(-15%);
+    z-index: -1;
+  }
+
+  .hero__image-md {
+    display: none;
+  }
+
+  .content {
+    column-gap: 16px;
+  }
+
+  .card {
+    flex-basis: calc(33.333% - 32px);
   }
 }
