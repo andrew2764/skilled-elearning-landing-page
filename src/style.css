@@ -191,10 +191,6 @@ footer .btn-primary.btn-accent:hover {
     width: 50%;
   }
 
-  .hero__image-container {
-    width: 50%;
-  }
-
   .content {
     display: flex;
     flex-wrap: wrap;
