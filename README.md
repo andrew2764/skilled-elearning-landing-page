@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-gDd0q5KZEk
 - Live Site URL: https://skilled-elearning-landing-page-rust.vercel.app/
 
 ## My process
